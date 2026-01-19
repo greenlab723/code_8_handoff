@@ -10,6 +10,9 @@
 WEBアクセス不可：rawを開けません。ROOT_INDEX/CONTEXT/PROJECT_LOG の本文をこのチャットに貼ってください。
 
 【絶対ルール】
+- この HANDOFF.md の raw URL が貼られた場合、
+  AIは必ず ROOT_INDEX / CONTEXT / PROJECT_LOG の raw を自動で取得し、
+  それらを読んだうえで復唱・提案を行わなければならない
 - この HANDOFF.md の raw URL だけが貼られた場合も、
   それを「起動命令」とみなし、本文の指示どおりに処理を開始すること
 - HANDOFF.md の本文は表示しない（＝いま読んでいるこの文章をそのまま貼り付けて表示しない）
@@ -31,6 +34,7 @@ WEBアクセス不可：rawを開けません。ROOT_INDEX/CONTEXT/PROJECT_LOG �
 　　AIが妥当だと判断した「次の作業」だけを挙げること
 最後に必ず：
 「A/B/C どれからやるにゃあ？」
+
 
 
 
