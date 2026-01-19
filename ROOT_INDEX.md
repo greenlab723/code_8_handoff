@@ -80,3 +80,16 @@
 - `tools/test_debug_404.ps1`
 - `tools/test_token.ps1`
 
+
+---
+
+## 5) おひっこし完了チェックリスト（寝ても迷子にならないにゃ！）
+- [ ] 人間が「おひっこしするにゃ」と宣言した
+- [ ] このチャットの成果が3〜5点で要約され、人間が承認した
+- [ ] ✅ PROJECT_LOG.md の LATEST に「成果の要約ブロック」を必ず追記した
+- [ ] ROOT_INDEX / CONTEXT / HANDOFF を更新するか判断した（必要なときだけ更新）
+- [ ] handoff更新を実行した：`.\tools\handoff_update.ps1` または `.\tools\handoff_ship.ps1`
+- [ ] handoff作業場（`code_8_handoff`）で `git status` が clean
+- [ ] 親リポ（`jakethecrow-pages`）で必要な commit / push が済んでいる
+- [ ] 次チャットは「HANDOFF.md の raw URL を貼る」だけで起動できる
+
