@@ -31,6 +31,8 @@
   - 触るときは必ず「本番」宣言してから
 
 ### D. handoff（公開 / 引っ越し用）
+※ handoffは「編集する作業場（このフォルダ）」と「読むだけの公開先（GitHub）」の2段構え。編集は常に作業場で行い、pushで公開先が更新される。
+
 - ローカル作業：`G:\マイドライブ\会員管理\コード8\jakethecrow-pages\code_8_handoff`（職場は H:）
 - GitHub（公開）：`greenlab723/code_8_handoff`
 - 置くもの：
@@ -77,3 +79,4 @@
 - `tools/test_health.ps1`
 - `tools/test_debug_404.ps1`
 - `tools/test_token.ps1`
+
