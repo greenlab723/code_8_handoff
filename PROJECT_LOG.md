@@ -50,3 +50,13 @@ C) 変更点を運用手順書として最終まとめ
 - 引っ越し開始時は：LATEST追記 → code_8_handoffへ3ファイル反映（commit/push）→ 新チャットに魔法の言葉貼付、の手順で固定
 
 （ここに追記していくにゃあ）
+
+### 🆕 ROOT_INDEX 導入＆handoff自動更新（2026-01-19 23:12 JST）
+- 引っ越し用の「これ見たらわかるにゃ！」一覧 ROOT_INDEX.md を公開handoffに追加
+- 引っ越し更新を1発化：jakethecrow-pages/tools/handoff_update.ps1
+  - code_8 → code_8_handoff へ CONTEXT/PROJECT_LOG/HANDOFF をコピー
+  - （ROOT_INDEX.md があれば一緒に add）
+  - commit → pull --rebase → push まで自動
+- Gドライブ（自宅）/Hドライブ（職場）の差を吸収する方針：ドライブ固定ではなく、作業場所起点（相対/固定構造）で運用
+- HANDOFF.md に ROOT_INDEX の raw も追加し、引っ越し先AIが毎回「憲法＋航海日誌＋地図」を読む構成に更新
+
