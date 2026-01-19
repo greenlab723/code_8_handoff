@@ -42,5 +42,11 @@ C) 変更点を運用手順書として最終まとめ
 - 勝利状態の確認（token OK / debug404 OK / api 404 JSON OK）
 - /api 未定義の吸い込み対策（[[path]].ts）
 - tools/*.ps1 を整備して運用固定
+### 🆕 引っ越し準備（handoff公開化）完了
+- 非公開リポだと raw が読めず引っ越し自動確認ができないため、handoff用の公開リポを新設：
+  - greenlab723/code_8_handoff
+- CONTEXT / PROJECT_LOG / HANDOFF を「3ファイルだけ」公開リポへ push し、トークン無しrawで閲覧できることを確認
+- 誤って token 付きURLを貼ったため、GitHubトークンは revoke 済み（以後 token 付きURL禁止）
+- 引っ越し開始時は：LATEST追記 → code_8_handoffへ3ファイル反映（commit/push）→ 新チャットに魔法の言葉貼付、の手順で固定
 
 （ここに追記していくにゃあ）
